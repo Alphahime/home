@@ -209,3 +209,121 @@ P{
     margin-left: 1rem;
     border: none;
 }
+.box-pedagog{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 100rem;
+  
+}
+.box-pedagog .title-pegagog{
+   font-size: 45px;
+   color: rgb(195, 16, 16);
+   font-weight: 800;
+   margin-left: 6rem;
+   margin-top: 5rem;
+}
+.title-pegagog img{
+    position: absolute;
+    margin-left: -27.5rem;
+}
+.image-contain{
+    background-image: url("30.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+    margin-left: 12rem;
+    margin-top: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.image-contain img{
+    width: 100px;
+    height: 100px;
+}
+.box-alumni{
+    width: 100% ;
+    height: 600px;
+    display: flex;
+    padding-left: 8rem;
+    gap: 3px;
+    padding-top: 5rem;
+}
+.box-alumni .box{
+    width: 40%;
+    height: 300px;
+    padding-left: 5rem;
+}
+.box-alumni .box2{
+    width: 40%;
+    height:400px;
+    background-image: url("8.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+*.box2 img{
+    margin-top: 7rem;
+    margin-left: 16rem;
+}
+.alumni{
+    font-size:40px  ;
+    color: rgb(195, 16, 16);
+    margin-top: 3rem;
+    font-weight: 700;
+}
+.alumni img{
+  position: absolute;
+  margin-left: -8.4rem;
+}
+.box p{
+    font-size: 22px;
+    color: rgb(57, 56, 56);
+    margin-top: 8rem;
+}
+.bare-red{
+    width: 200px;
+    height: 70px;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius:2rem ;
+    background-color: rgb(195, 16, 16);
+    color: white;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bare-red-2{
+    width: 200px;
+    height: 70px;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius:2rem ;
+    background-color: rgb(195, 16, 16);
+    color: white;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: -5rem;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box-white{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    border-top: 8px solid rgb(195, 16, 16);
+    margin-top: 3rem;
+    box-shadow: 1px 0px 0px 1px  black;
+    padding: 1rem;
+    font-weight: 600;
+}
