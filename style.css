@@ -31,7 +31,7 @@
 }
 h2{
     font-size: 30px;
-    color: rgb(207, 14, 14);
+    color: #ce0033;
     
 }
 P{
@@ -43,7 +43,7 @@ P{
 .section-decouverte{
     width: 100%;
     height: 700px;
-    background-image:url("35.webp") ;
+    background-image:url("35.png") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -105,7 +105,7 @@ P{
     color: #ce0033;
     font-weight:bold;
     position: absolute;
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-left: 6rem;
 }
 .formateur img{
@@ -322,8 +322,8 @@ P{
     background-color: white;
     border-top: 8px solid #ce0033;
     margin-top: 3rem;
-    box-shadow: 1px 0px 0px 1px  black;
-    padding: 1rem;
+    box-shadow: 8px 8px 8px 8px  rgba(112, 107, 107, 0.187);
+    
     font-weight: 600;
 }
 
@@ -333,9 +333,9 @@ footer {
     background-image: url("spirale-backgr.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: 70rem;
+    margin-top: 52rem;
     display: flex;
-    position: absolute;
+   
 }
 .copy {
     width: 100%;
@@ -421,7 +421,7 @@ footer {
     font-size: 25px;
     color: white;
     font-weight: bold;
-    margin-left: -11.5rem;
+   
     margin-top: -4rem;
 }
 
@@ -430,7 +430,7 @@ footer {
     color: white;
     font-weight: bold;
     margin-top: 1rem;
-    margin-left: -4.5rem;
+ 
 }
 
 .box-foot p {
@@ -447,7 +447,7 @@ footer {
     color: white;
     font-weight: bold;
     margin-top: 1rem;
-    margin-left: -7.5rem;
+  
 }
 
 .box-foot4 p {
@@ -480,16 +480,19 @@ box-shadow: none;
 cursor: pointer;
 border-bottom-left-radius: 0;
 border-top-left-radius: 0;
+width: 8rem;
+height: 2.5rem;
+margin-left: -1rem;
 
 }
 .box-bassine{
   width: 100%;
-  height: 100vh;
-  border: 1px solid black;
+  height: 80vh;
+ 
 }
 .box-nous-contacter{
   width: 100%;
-  height: 150vh;
+  height: 100vh;
   border: 1px solid black;
   position: absolute;
   margin-top: 290rem ;
@@ -516,7 +519,7 @@ border-top-left-radius: 0;
     
 }
 .lien1{
-    color: #f44545;
+    color: #ce0033;
     padding-top: 10%;
     text-decoration: none;
     display: inline-block;
@@ -528,12 +531,12 @@ border-top-left-radius: 0;
 hr{
     width: 100%;
     padding-top: 3%;
-    background-color: #f44545;
+    background-color: #ce0033;
     margin-bottom: -2%;
 }
 .lien10{
     color: #faf2f2;
-    background-color: #f44545;
+    background-color: #ce0033;
     text-decoration: none;
     display: inline-block;
     padding: 1px;
@@ -588,7 +591,7 @@ display: inline-block;
   }
   .nouscontacter{
 padding: 10px 10px;
-background-color: #db3934;
+background-color: #ce0033;
 color: white;
     border: none;
     border-radius: 45px;
@@ -602,17 +605,39 @@ color: white;
   body{
     background-color: #fff;
 }
+.box-app{
+  width: 50px;
+  height: 80px;
+  background-color: #ce0033;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: -2rem;
+}
+.box-app h4{
+  font-size: 22px;
+  color: white;
+}
+.box-app P{
+  font-size: 15px;
+  color: white;
+  margin-left: 0.4rem;
+}
 .hider1{
-    color: brown;
-    
-    padding-top: 6%;
+    color: #ce0033;
+    font-size: 40px;
     text-align: center;
-
+    font-weight: bold;
+    margin-top: 4rem;
+   
 }
 .hider2{
-    color: brown;
+    color: #ce0033;
     text-align: left;
-}
+    font-size: 40px;
+    margin-left: 4rem;
+} 
 .sections {
     display: flex;
     justify-content: space-around; /* Espace égal entre les éléments */
@@ -626,7 +651,7 @@ color: white;
 .image1{
  position: relative;
  display: inline-block;
- background-image: url('image/group1.png');
+ background-image: url('34.png');
  background-position: center;
  background-size: cover;/*taille*/
  background-repeat: no-repeat;
@@ -638,7 +663,7 @@ color: white;
   .image2{
   position: relative;
   display: inline-block;
-  background-image: url('image/group2.png');
+  background-image: url('39.png');
   background-position: center;
   background-size: cover;/*taille*/
   background-repeat: no-repeat;
@@ -650,7 +675,7 @@ color: white;
 .image3{
  position: relative;
  display: inline-block;
- background-image: url('image/group3.png');
+ background-image: url('5.png');
  background-position: center;
  background-size: cover;/*taille*/
  background-repeat: no-repeat;
@@ -662,7 +687,7 @@ color: white;
 .image4{
 position: relative;
 display: inline-block;
-background-image: url('image/groupe4.png');
+background-image: url('33.png');
 background-position: center;
 background-size: cover;/*taille*/
 background-repeat: no-repeat;
@@ -687,19 +712,19 @@ border-radius: 4%;
 .hider3{
   width: 30%;
  
- color: brown;
+ color: #ce0033;
  margin-top: 9%;
  left: 500%;
 }
 
 .hider4{
 
-    color: brown;
+    color:#ce0033;
     
 }
 button{
     color: #fff;
-    background-color: #db3934;
+    background-color: #ce0033;
     border-radius: 25px;
     width: 10%;
 }
@@ -715,21 +740,79 @@ button{
    width: 100%;
    height: auto;/* taille par defaut*/
    justify-content: space-around;
-   border: 1px solid black;
+   
 }
 .bacgraoud1{
-  background-color: #db3934;
-  width: 30%;
-  height: 90%;
+  background-color: #ce0033;
+  width: 40%;
+ height: 200px;
+  border-radius: 1rem;
   
 }
+.bacgraoud1 button{
+ width:80px ;
+ height: 80px;
+ border: none;
+ background-color: white;
+ position: absolute;
+ border-radius: 100%;
+ margin-left: 35rem;
+ margin-top: -5rem;
+  
+}
+.bacgraoud2 button{
+  width:80px ;
+  height: 80px;
+  border: none;
+  background-color: white;
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 35rem;
+  margin-top: -5rem;
+   
+ }
 .bacgraoud2{
-  background-color: #db3934;
-  width: 30%;
-  height: 90%;
-  flex-flow: row wrap;
-  justify-content: space-around;/*Pour separer*/}
-
+  background-color: #ce0033;
+  width: 40%;
+  height: 200px;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+  
+.bacgraoud1 h1{
+  font-size: 30px;
+  color: white;
+  margin-left: 8rem;
+  margin-top: 4rem;
+}
+.bacgraoud1 span{
+ font-size: 45px;
+ color: white;
+ position: absolute;
+ font-weight: 600;
+ margin-top: 2rem;
+ margin-left: 3rem;
+}
+.bacgraoud2 span{
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-left: 3rem;
+ }
+ 
+.bacgraoud2 h1{
+  font-size: 30px;
+  color: white;
+  margin-left: 8rem;
+  margin-top: 4rem;
+}
+.decouverte-title {
+  font-size: 35px;
+  color: #ce0033;
+  margin-left: 90rem;
+}
 .deux{
 
   text-align: justify;
@@ -739,7 +822,7 @@ button{
 
 }
 .hist{
-  color: #d84343;
+  color: #ce0033;
   text-align: left;
   padding-top: 3%;
 }
@@ -783,7 +866,7 @@ height: 80%;
 
 }
 .cont1{
-  color: #d84343;
+  color: #ce0033;
   text-align: center;
 }
 .format{
@@ -894,7 +977,120 @@ form {
   font-size: 17px;
   color: #acaaaa;
 }
+.box-all-info{
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+  position: absolute;
+}
+form {
+  width: 40%;
+  height: 90%;
+  margin-left: 55px;
+  padding-right: 90px;
+  }
+  
+  label[for="confirmation"] {
+  font-weight: bolder;
+  font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+  width: 190px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px rgb(206, 199, 199) solid;
+  }
+  
+  textarea {
+  border-radius: 8px;
+  border: 1px rgb(206, 199, 199) solid;
+  }
+  
+  form p {
+  color: rgb(153, 149, 149);
+  font-size: 20px;
+  }
+  
+  input,
+  textarea {
+  padding-left: 3%;
+  margin: 0px 13px 22px 0px;
+  }
+  
+  input[type="file"] {
+  color:#ce0033;
+  }
+  input[type="submit"] {
+  background-color: #ce0033;
+  color: #000;
+  font-size: 17px;
+  font-weight: bolder;
+  border: 1px #ce0033 solid;
+  border-radius: 30px;
+  width: 180px;
+  height: 55px;
+  }
+  
+  .formulai{
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  .moi {
+  position: relative;
+  left: 90px;
+  }
+  
+  form{
+  position: relative;
+  left: 150px;
+  top: 90px;
+  }
+  
+  .fa-location-dot,
+  .fa-phone-volume,
+  .fa-envelope {
+  color: #ce0033;
+  font-size: 26px;
+  position: relative;
+  right: 55px;
+  top: 40px;
+  }
+  
+  .woura{
+  position: relative;
+  right: 155px;
+  bottom: 5px;
+  }
+  
+  .woura1{
+  position: relative;
+  bottom: 20px;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-bottom: 9%;
+  }
+  
+  .woura2{
+  position: relative;
+  bottom: 35px;
+  width: 170px;
+  font-size: 17px;
+  color: #acaaaa;
+  }
+  .event{
+    font-size: 40px;
+    color: #ce0033;
+    margin-left: 4rem;
+    margin-top: -4rem;
 
-      
+  }      
   
 
