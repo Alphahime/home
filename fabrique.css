@@ -4,6 +4,50 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.box-notre-pedagogie{
+    width: 100%;
+    height: 50vh;  
+}
+.box-notre-pedagogie h1{
+    text-align: center;
+    font-size: 45px;font-weight: bold;
+    color: #ce0033;
+   
+}
+.contain-box-all{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+   
+}
+.contain-box1{
+    width: 40%;
+    height: 400px;
+    background-image: url("viedo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain-box2{
+    width: 40%;
+    height: 400px;
+}
+.contain-box2 p{
+    font-size: 24px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+  
+}
+.contain-box2 h2{
+    font-size: 30px;
+    color: #ce0033;
+    margin-top: 2rem;
+    position: absolute;
+    margin-left: 2rem;
+  
+}
 .container-video {
     width: 100%;
     height: 100vh;
@@ -51,17 +95,19 @@ h2{
   grid-template-columns: repeat(2, 1fr); 
   gap: 20px; 
   width: 40%;
+  margin-left: 10rem;
 }
 .h1-title{
     font-size: 35px;
     font-weight: 700;
     color: #ce0033;
-    margin-top: -3rem;
+   margin-left: 10rem;
+   margin-top: -5rem;
 }
 
 .box {
     width: 20rem;
-    height:  13rem;
+    height:  15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,6 +116,13 @@ h2{
     text-align: center; 
     box-shadow: 2px 2px 2px 2px rgb(248, 246, 246) ;
     background-color: white;
+}
+.box img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: -12rem;
+    margin-left: -10rem;
 }
 .number {
     font-size: 45px;
@@ -97,7 +150,6 @@ h4 {
 .contain-image{
     width: 35%;
     height: 100vh;
-    /* border: 1px solid black; */
     display: flex;
     position: absolute;
     margin-left: 65rem;
@@ -129,14 +181,15 @@ h4 {
 }
 
 .box-img {
-    background-image: url("Photocool.jpg");
+    background-image: url("33.png");
     background-size: cover;
     background-repeat: no-repeat;
     /* transform: rotate(-5deg); */
     top: -20rem; 
     z-index: 1;
     padding: 20rem 13rem;
-    margin-left: -2rem;
+  
+    margin-top: 20rem;
  
 }
 .quot-box {
@@ -173,16 +226,16 @@ h4 {
    
 } 
 .val{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
     color: #ce0033;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .contain-valeur{
     width: 100%;
     height: 100vh;
-    margin-top: 20rem;
+    margin-top: 10rem;
     display: flex;
     justify-content: space-around;
     padding-left: 3rem;
@@ -260,8 +313,8 @@ h4 {
 .box-chiffre{
     width: 100%;
     height: 70vh;
-    /* border: 1px solid black; */
-    margin-top: 3rem;
+    margin-top: -13rem;
+    
 }
 .chiffre-h1{
     text-align: center;
@@ -273,11 +326,12 @@ h4 {
 .all-chiffre{
     width: 100%;
     height: 40vh;
-    /* border: 1px solid black; */
     background: #ce0033;
     display: flex;
     justify-content: space-around;
-    margin-top: 4rem;
+    margin-top: 8rem;
+    align-items: center;
+   
 }
 .femme{
     width: 25rem;
@@ -300,8 +354,7 @@ h4 {
 .equipe{
     width: 100%;
     height: 50vh;
-    /* border: 1px solid black; */
-    margin-top: 6rem;
+  
 }
 .equipe h1{
   text-align: center;
@@ -320,9 +373,9 @@ h4 {
 .personne{
     width: 100%;
     height: 80vh;
-    /* border: 1px solid black; */
     display: flex;
     justify-content:space-evenly;
+    margin-top: -10rem;
 }
 .box-person{
     width: 20rem;
@@ -357,14 +410,15 @@ h4 {
     color: black;
     font-weight:600;
     margin-top: -1rem;
-    margin-left: -7rem;
+    margin-left: 2rem;
+    
 }
 .name-sa{
     font-size: 26px;
     color: black;
     font-weight:600;
-    margin-top: -1rem;
-    margin-left: -6.5rem;
+    margin-left: 2rem;
+    
 }
 
 
@@ -372,22 +426,24 @@ h4 {
     font-size: 22px;
     color: #ce0033;
     font-weight: bold;
-    margin-top: -2rem;
-    margin-left: -9rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  
 }
 .activity-coach{
     font-size: 22px;
     color: #ce0033;
     font-weight: bold;
-    margin-top: -2rem;
-    margin-left: -12.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+   
 }
 .activity-format{
     font-size: 22px;
     color: #ce0033;
     font-weight: bold;
-    margin-top: -2.5rem;
-    margin-left: -10rem;
+    margin-top: 1rem;
+   margin-left: 2rem;
 }
 .temoi{
     color: gray;
