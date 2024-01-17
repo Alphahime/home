@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+  
     font-family: Arial, Helvetica, sans-serif;
 }
 .partie-somplon-senegal{
@@ -16,7 +17,6 @@
 .box-img{
    width: 30%;
    height: 600px;
-   border: 1px solid black;
    background-image: url("32\ \(1\).webp");
    background-size: cover;
    background-position: center;
@@ -47,9 +47,9 @@ P{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 5rem;
+    margin-top: 25rem;
     padding-left: 8rem;
-    padding-top: 9rem;
+    padding-top: 5rem;
     background-blend-mode: darken; 
 }
 .section-decouverte .title-decouverte{
@@ -96,22 +96,26 @@ P{
     width: 100%;
     height: 800px;
     display: flex;
-    margin-top: 8rem;
     justify-content: center;
     align-items: center;
 }
 .formateur{
     font-size: 42px;
     color: #ce0033;
-    font-weight:bold;
-    position: absolute;
-    margin-top: 10rem;
+    font-weight:bold;  
+    margin-top: 50rem;
     margin-left: 6rem;
 }
 .formateur img{
-    position: absolute;
+  
     margin-left: -14.3rem;
    
+}
+.format{
+  font-size: 22px;
+  color: black;
+  font-weight: 600;
+  margin-top: -5rem;
 }
 .contain{
     width: 100%;
@@ -155,6 +159,7 @@ P{
     font-weight: lighter;
     font-size: 24px;
     color: rgb(62, 61, 61);
+  
 }
 .info img{
     width:55%;
@@ -171,7 +176,7 @@ P{
  border-radius: 2rem;
  font-size: 22px;
  border: none;
- margin-left: 16rem;
+ margin-left: 5rem;
  margin-top: 5rem;
  color: white;
 }
@@ -187,7 +192,7 @@ P{
     width: 100%;
     height: 100px;
     position: absolute;
-    margin-top: 42rem;
+    margin-top: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,7 +217,7 @@ P{
     width: 100%;
     height: 500px;
     position: absolute;
-    margin-top: 100rem;
+    margin-top: 120rem;
   
 }
 .box-pedagog .title-pegagog{
@@ -249,7 +254,7 @@ P{
     display: flex;
     padding-left: 8rem;
     gap: 3px;
-    padding-top: 5rem;
+    padding-top: 200px;
 }
 .box-alumni .box{
     width: 40%;
@@ -488,35 +493,36 @@ margin-left: -1rem;
 .box-bassine{
   width: 100%;
   height: 80vh;
+  /* border: 1px solid black; */
  
 }
 .box-nous-contacter{
   width: 100%;
   height: 100vh;
-  border: 1px solid black;
   position: absolute;
   margin-top: 290rem ;
 }
 .debut{
     background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
 }
 #logo{
-    width: 10%;
+    width: 200px;
     margin-left: 5px;
-    box-shadow: 4px 4px 5px ;
-    height: 85px;
+    height: 100px;
     margin-top: 1%;
     
 }
 .lien{
     color: #000000;
-    
     text-decoration: none;
     display: inline-block;
     padding: 1px;
-    margin-left: 55px;
     margin-bottom: 1%;
-    
+    font-size: 1rem;
 }
 .lien1{
     color: #ce0033;
@@ -540,8 +546,11 @@ hr{
     text-decoration: none;
     display: inline-block;
     padding: 1px;
-    margin-left: 55px;
     margin-bottom: 1%;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+
     
 }
 .photogroupe{
@@ -612,7 +621,7 @@ color: white;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   position: absolute;
-  margin-left: 20rem;
+  margin-left: 10rem;
   margin-top: -2rem;
 }
 .box-app h4{
@@ -638,10 +647,12 @@ color: white;
     font-size: 40px;
     margin-left: 4rem;
 } 
-.sections {
+.all-section{
     display: flex;
-    justify-content: space-around; /* Espace égal entre les éléments */
-    align-items: center; /* Centrer verticalement */
+    justify-content: space-around; 
+    align-items: center; 
+    position: absolute;
+    margin-top: 2rem;
 }
 .section {
     flex: 1;
@@ -732,15 +743,15 @@ button{
     text-align: center;
 }
 .evenementavenir{
-  color: #34db47;
+  color: #ce0033;
   
 }
 .bacgraoud{
   display: flex;
    width: 100%;
-   height: auto;/* taille par defaut*/
+   height: auto;
    justify-content: space-around;
-   
+   margin-top: 40rem;
 }
 .bacgraoud1{
   background-color: #ce0033;
@@ -811,7 +822,10 @@ button{
 .decouverte-title {
   font-size: 35px;
   color: #ce0033;
-  margin-left: 90rem;
+  text-align: center;
+  margin-top: -10rem;
+  margin-left: 4rem;
+  position: absolute;
 }
 .deux{
 
@@ -824,7 +838,9 @@ button{
 .hist{
   color: #ce0033;
   text-align: left;
-  padding-top: 3%;
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 3rem;
 }
 .papa{
   padding-top: 2%;
@@ -833,32 +849,40 @@ button{
   justify-content: space-around;/*Pour separer*/
 }
 .texphoto1{
-  background-color: #e3e4e9;
-width: 30%;
-height: 80%;
+  background-color: #fdfbfb;
+  width: 30%;
+  height: 80%;
   text-align: left;
-  
+  font-size: 15px;
+  color: #000000d0;
+  box-shadow: 4px 4px 4px 4px rgba(6, 6, 6, 0.046);
 }
 .texphoto2{
-  background-color: #e3e4e9;
-width: 30%;
-height: 80%;
+  background-color: #f0f0f4b8;
+  width: 30%;
+  height: 80%;
   text-align: left;
   align-items: center;
+  font-size: 15px;
+  color: #000000d0;
+  box-shadow: 4px 4px 4px 4px rgba(6, 6, 6, 0.046);
 }
 .texphoto3{
-  background-color: #e3e4e9;
-width: 30%;
-height: 80%;
+  background-color: #f0f0f4b8;
+  width: 30%;
+  height: 80%;
   text-align: left;
   align-items: center ;
- 
+  font-size: 15px;
+  color: #000000d0;
+  box-shadow: 4px 4px 4px 4px rgba(6, 6, 6, 0.046);
 }
 
 .rond{
-  width: 30%;
-  border-radius: 40%;
-  
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-top: 2rem;
 }
 .ihderr{
   text-align: center;
@@ -868,6 +892,9 @@ height: 80%;
 .cont1{
   color: #ce0033;
   text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 12rem;
 }
 .format{
   text-align:center;
@@ -980,7 +1007,6 @@ form {
 .box-all-info{
   width: 100%;
   height: 100vh;
-  border: 1px solid black;
   position: absolute;
 }
 form {
@@ -1088,9 +1114,32 @@ form {
   .event{
     font-size: 40px;
     color: #ce0033;
-    margin-left: 4rem;
-    margin-top: -4rem;
-
+   margin-top: -5rem;
+    position: absolute;
+    margin-left: -39rem;
   }      
-  
-
+  .all-btn2{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-btn2 .btn2{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: #ce0033;
+    margin-left: 1rem;
+    border: none;
+}
+.all-btn2 .btn-long2{
+    width: 4rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: #ce0033;
+    margin-left: 1rem;
+    border: none;
+}
