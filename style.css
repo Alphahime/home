@@ -1149,3 +1149,31 @@ form {
   border: 2px solid black;
   position: absolute;
 } */
+
+.copy {
+  width: 100%;
+  height: 80px;
+  background-color: #ce0033; 
+  justify-content: space-between;
+  display: flex;
+  padding: 1rem;
+  position: absolute;
+  margin-top: 215rem;
+}
+
+.date {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.copy span p {
+  color: white;
+  font-weight: normal;
+}
+
+.copy span img {
+  width: 15px;
+  height: 17px;
+}
